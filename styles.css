@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    border: 0;
+    font-family: RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-color: rgb(49, 49, 49);
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #44d62c;
+
+  
+}
+
+.container-h nav{
+
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+   padding-left: 350px;
+   padding-right: 350px;
+   padding-top: 12px;
+   
+}
+.container-h a{
+
+    text-decoration: none;
+    font-size: 15px;
+    color: #7a7979;
+}
+body a:hover{
+
+    color: white;
+}
+main a:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+
+.shp-nw-para{
+
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background-color: #686868;
+}
+.shp-nw-para p{
+
+    padding:12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.shp-nw-para a{
+    color: white;
+    text-decoration: none;
+}
+
+.bg1-container{
+    text-align: center;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+.bg1-container a{
+
+    padding-top: 20px;
+}
+.bg1-headers{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    color: white;
+}
+.bg1-headers h1{
+
+    font-size: 55px;
+    font-weight: 600;
+    font-stretch: condensed;
+    letter-spacing: 1px;
+}
+.bg1-headers h2{
+    font-weight:100;
+    font-size: 28px;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    letter-spacing: 1px;
+    font-stretch:ultra-condensed;
+}
+.bg1-headers a{
+
+    text-decoration: none;
+    color: white;
+    font-weight:100;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: -25px;
+    font-stretch: ultra-condensed;
+    
+}
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 946px 946px;
+    grid-template-rows: 589px 589px 589px;
+    justify-content: space-between;
+    align-content:space-around;
+    margin-bottom: 5px;
+    margin-top: -5px;  
+
+}
+.grid-items{
+
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+}
+.grid-items h1{
+
+    font-size: 42px;
+    font-weight: 600;
+    font-stretch: condensed;
+    letter-spacing: 1px;
+}
+.grid-items h2{
+    
+    font-weight:100;
+    font-size: 20px;
+    font-family: RazerF5, Arial, Helvetica, sans-serif;
+    margin-top: -15px;
+    letter-spacing: 1px;
+    font-stretch:ultra-condensed;
+}
+.grid-items a{
+
+    text-decoration: none;
+    color: white;
+    font-weight:100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: -15px;
+    font-stretch:expanded;
+  
+}
+
+.text-inside-grid-container{
+
+    padding-top: 20px;
+}
+footer{
+
+    background-color: #0e0e0e;
+}
+.footer-flex-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+    align-items:first baseline;
+    justify-content: space-evenly;
+    margin-left: 275px;
+    margin-right: 250px;
+    column-count: 1px;
+}
+.footer-flex-container ul{
+
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: -48px;
+}
+.footer-flex-container li{
+
+    list-style-type: none;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 17px;
+
+}
+.footer-flex-container a{
+
+    text-decoration: none;
+    color: #999797;
+   
+}
+
+.footer-flex-container i{
+
+    color: #999797;
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer-flex-container h6{
+
+    color: #44d62c;
+    margin-left: 200px;
+
+}
+
+.footer-end-flex{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 12px;
+    color:#999797;
+    padding-bottom: 15px;
+}
+.footer-cpy-rt{
+
+    display: inline-flex;
+}
+.footer-cpy-rt a{
+
+    text-decoration: none;
+    color: #999797;
+    position: relative;
+}
+.footer-end-flex li{
+
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.footer-location-lnk{
+
+    margin-right: 10px;
+    color: white;
+}
+.footer-hr hr{
+
+    width: 1193px;
+    margin-left: 346px;
+    border-color:#999797;
+}
+.footer-location-lnk a{
+
+    color: #999797;
+    text-decoration: none;
+}
+
